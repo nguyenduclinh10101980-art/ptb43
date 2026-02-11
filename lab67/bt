@@ -1,6 +1,8 @@
-n = int(input("Nhap tong so keo (n):"))
-m = int(input("Nhap tong so hoc sinh (m):"))
-so_keo_moi_hoc_sinh = n//m
-so_keo_con_lai = n%m
-print(f"so keo moi hoc sinh la: {so_keo_moi_hoc_sinh}")
-print(f"so keo con lai la: {so_keo_con_lai}")
+s = input("Nhap so giay:")
+s = int(s)
+hours = s // 3600
+s = s % 3600
+minutes = s // 60
+s = s % 60
+second = s
+print(f"{hours} gio {minutes} phut {second} giay")
